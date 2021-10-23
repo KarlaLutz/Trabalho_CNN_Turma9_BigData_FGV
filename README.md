@@ -6,7 +6,7 @@ Criar modelo preditivo para análise de imagens Raios-X de pulmões de crianças
 
 ### Breve Descrição do Dataset Utilizado
 
-O conjunto de dados proposto está disponível no ambiente Kaggle e será uutilizado para avaliar o desempenho do modelo. Este conjunto consiste em um total de 5.863 imagens de raios-X (JPEG) do tórax de pacientes com idade entre um e cinco anos.
+O conjunto de dados proposto foi disponibilizado pelo professor e será uutilizado para avaliar o desempenho do modelo. Este conjunto consiste em um total de 5.863 imagens de raios-X (JPEG) do tórax de pacientes com idade entre um e cinco anos.
 Além disso, o dataset é organizado em três pastas (train, test, val) e contém subpastas para cada categoria de imagem (Pneumonia / Normal). A fim de ilustrar a generalização de diferentes modelos, após obter essa divisão o mesmo foi testado contendo 70%, 10% e 20% do total das imagens. 
 
 ### Data Augmentation
