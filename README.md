@@ -21,4 +21,4 @@ Utilizaremos o ExplanabeAI para plotarmos de forma clara quais foram os pontos d
 
 ### Conclusões
 
-
+Após termos as análises dos modelos montados a partir dos datasets dividimos, notamos que ao rodarmos o CNN diretamente no dataset de treino sem nenhum tipo de data augmentation, temos a presença de um overfitting. Justamente devido a esses resultados, notamos que a quantidade de imagens Normais são muitos desiguais em relação as imagens de Pneumonia, por isso foi realizado o procedimento do Data Augmentation e ao rodar novamente o modelo com o dataset incrementado, obtivemos resultados mais realistas onde caso uma nova imagem for inserida, conseguimos ter a certeza que nosso modelo conseguirá processá-la e categorizá-la corretamente.
